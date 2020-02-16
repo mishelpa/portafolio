@@ -1,0 +1,19 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Es el portafolio de los proyectos realizados en Laboratoria",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishelpa/portafolio.git"
+  },
+   "author": "Judith Mishel Paredes Artica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishelpa/portafolio/issues"
+  },
+  "homepage": "https://github.com/mishelpa/portafolio#readme"
+}
