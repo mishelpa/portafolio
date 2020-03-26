@@ -207,22 +207,35 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 60px;
-  width: 60px;
-  font-size: 3rem;
-  border-radius: 50%;
-  line-height: 1.4;
-  margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #ff3263;
+  height: 47px;
+  width: 47px;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0.2rem;
+  padding-top: 3px;
+  box-shadow: none;
   transition: all 500ms ease;
-  color: #ff3263;
 }
 
 .socials .ico-circle:hover {
-  background-color: whitesmoke;
-  color: black;
-  box-shadow: 0 0 0 3px black;
+  font-size: 2.5rem;
   transition: all 500ms ease;
+}
+
+.ion-social-linkedin {
+  color: #0077B5;
+}
+
+.ion-social-github{
+  color:#2297F4
+}
+
+.icon-google{
+  color: #EA4335;
+}
+
+.ion-document{
+  color: #34A853;
 }
 
 /*------/ Ul resect /------*/
@@ -239,26 +252,20 @@ a:hover {
   margin-bottom: 0;
 }
 
-.list-ico {
-  line-height: 2;
-}
 
-.list-ico span {
-  color: #ff3263;
-  margin-right: 10px;
-}
+
 
 /*------/ Ico Circle /------*/
 
 .ico-circle {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   font-size: 2rem;
   border-radius: 50%;
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #ff3263;
+  box-shadow: 0 0 0 5px #ff3263;
   display: block;
 }
 
@@ -711,7 +718,7 @@ a:hover {
 
 .service-box {
   background-color: #fff;
-  padding: 2.5rem 1.3rem;
+  padding: 1rem 0rem 0rem 0rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
@@ -720,7 +727,12 @@ a:hover {
   transition: all 500ms ease;
   color: #fff;
   background-color: #ff3263;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 5px #cde1f8;
+}
+
+.service-box .ico-circle img{
+  width: 60px;
+  height: 55px;
 }
 
 .service-box .service-ico {
@@ -730,11 +742,10 @@ a:hover {
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
 }
 
 .service-box .s-title {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   text-align: center;
   padding: .4rem 0;
 }
@@ -1047,7 +1058,8 @@ margin-bottom: 5px;
 
 footer {
   text-align: center;
-  color: black;
+  color: white;
+  background-color: black;
   padding-bottom: 4rem;
 }
 
